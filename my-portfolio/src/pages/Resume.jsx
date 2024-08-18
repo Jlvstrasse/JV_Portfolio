@@ -4,16 +4,14 @@ function Resume() {
   return (
     <section>
       <h2>Resume</h2>
-      <p><a href="/path-to-your-resume.pdf" download>Download My Resume</a></p>
-      <h3>Proficiencies</h3>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node.js</li>
-        
-      </ul>
+      <p>
+        <a href="/JV_Resume.pdf" download="JV_Resume.pdf">Download My Resume</a>
+        </p>
+      <p>
+        <img src="../src/assets/picture/res1.png" alt="" />
+        <img src="../src/assets/picture/res2.png" alt="" />
+      </p>
+     
     </section>
   );
 }

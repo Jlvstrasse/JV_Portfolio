@@ -4,12 +4,29 @@ import Project from '../components/Project';
 function Portfolio() {
   const projects = [
     {
-      title: 'Project 1',
-      image: '/path-to-image1.jpg',
-      deployedLink: 'https://link-to-project1.com',
-      repoLink: 'https://github.com/yourusername/project1',
+      title: 'Calculator',
+      image: '../src/assets/picture/calculator.png',
+      deployedLink: 'https://jlvstrasse.github.io/calculator/',
+      repoLink: 'https://github.com/Jlvstrasse/calculator',
     },
-    // Add more projects as needed
+    {
+        title: 'Rock Paper Scissors',
+        image: '../src/assets/picture/rps.png',
+        deployedLink: 'https://jlvstrasse.github.io/rock_paper_scissors/',
+        repoLink: 'https://github.com/Jlvstrasse/rock_paper_scissors',
+      },
+      {
+        title: 'Password Generator',
+        image: '../src/assets/picture/password.png',
+        deployedLink: 'https://jlvstrasse.github.io/password_generator/',
+        repoLink: 'https://github.com/Jlvstrasse/password_generator',
+      },  
+      {
+        title: 'Weather Dashboard',
+        image: '../src/assets/picture/weather.png',
+        deployedLink: 'https://jlvstrasse.github.io/weather_dashboard/',
+        repoLink: 'https://github.com/Jlvstrasse/weather_dashboard',
+      },
   ];
 
   return (
